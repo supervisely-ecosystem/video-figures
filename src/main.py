@@ -1,9 +1,9 @@
 import os
+from os.path import join
+
+from dotenv import load_dotenv
 
 import supervisely as sly
-from dotenv import load_dotenv
-from os.path import join
-from supervisely.video_annotation.key_id_map import KeyIdMap
 
 # for convenient debug, has no effect in production
 load_dotenv("local.env")
