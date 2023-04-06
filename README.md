@@ -2,11 +2,11 @@
 description: How to create bounding boxes, masks on video frames in Python
 ---
 
-# Video figures
+# Spatial labels on videos
 
 ## Introduction
 
-In this tutorial, you will learn how to programmatically create classes and figures for vdeo frames and upload them to Supervisely platform. 
+In this tutorial, you will learn how to programmatically create classes, objects and figures for video frames and upload them to Supervisely platform. 
 
 Supervisely supports different types of shapes / geometries for video annotation:
 
