@@ -190,7 +190,7 @@ for mask in os.listdir(masks_dir):
 frame_size, vlength = sly.video.get_image_size_and_frames_count(video_path)
 ```
 
-### Create `VideoObjectCollection` and `FrameCollcetion`
+### Create `VideoObjectCollection` and `FrameCollection`
 
 ```python
 objects = sly.VideoObjectCollection([kiwi, orange])
