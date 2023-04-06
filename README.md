@@ -6,7 +6,9 @@ description: How to create bounding boxes, masks on video frames in Python
 
 ## Introduction
 
-In this tutorial, you will learn how to programmatically create classes and figures for vdeo frames and upload them to Supervisely platform. Supervisely supports different types of shapes / geometries for video annotation:
+In this tutorial, you will learn how to programmatically create classes and figures for vdeo frames and upload them to Supervisely platform. 
+
+Supervisely supports different types of shapes / geometries for video annotation:
 
 * bounding box (rectangle)
 * mask (also known as bitmap)
@@ -15,7 +17,7 @@ In this tutorial, you will learn how to programmatically create classes and figu
 * point - will be covered in other tutorials
 * keypoints (also known as graph, skeleton, landmarks) - will be covered in other tutorials
 
-Learn more [about Supervisely Annotation JSON format here](../../api-references/supervisely-annotation-json-format/).
+Learn more [about Supervisely Annotation JSON format here](https://developer.supervise.ly/api-references/supervisely-annotation-json-format).
 
 ![Bounding box and masks](https://user-images.githubusercontent.com/79905215/230330904-0a5eae31-db8d-4c0c-810a-c29d020a91ac.gif)
 
