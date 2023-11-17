@@ -112,3 +112,8 @@ video_ann = sly.VideoAnnotation(
 # upload annotation to the video on server
 api.video.annotation.append(video_info.id, video_ann)
 print(f"Annotation has been sucessfully uploaded to the video {video_name}")
+
+# download annotation from server by video ID
+key_id_map = sly.KeyIdMap() # required to convert annotations downloaded from server
+video_ann_json = api.video.annotation.download(video_info.id)
+video_ann = sly.VideoAnnotation.from_json(video_ann_json, project_meta, key_id_map)
